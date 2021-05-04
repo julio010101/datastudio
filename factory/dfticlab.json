@@ -1,0 +1,9 @@
+{
+	"name": "dfticlab",
+	"location": "brazilsouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "0b9944be-0fea-4a98-b868-3016a5735ca7",
+		"tenantId": "79f6b639-ab12-4280-8077-bdbeef869b33"
+	}
+}
