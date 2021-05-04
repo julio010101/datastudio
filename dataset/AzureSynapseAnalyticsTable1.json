@@ -9,7 +9,7 @@
 		"type": "AzureSqlDWTable",
 		"schema": [],
 		"typeProperties": {
-			"schema": "datasus",
+			"schema": "dbo",
 			"table": "do2007"
 		}
 	}
