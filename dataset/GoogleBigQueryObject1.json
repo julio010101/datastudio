@@ -1,0 +1,16 @@
+{
+	"name": "GoogleBigQueryObject1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "GCPDatasus",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "GoogleBigQueryObject",
+		"schema": [],
+		"typeProperties": {
+			"dataset": "datasus",
+			"table": "DO2007"
+		}
+	}
+}
