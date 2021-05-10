@@ -1,0 +1,24 @@
+{
+	"name": "SourceDataset_cbv",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "GCPDatasus",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"cw_table": {
+				"type": "String"
+			}
+		},
+		"annotations": [],
+		"type": "GoogleBigQueryObject",
+		"schema": [],
+		"typeProperties": {
+			"dataset": "datasus",
+			"table": {
+				"value": "@dataset().cw_table",
+				"type": "Expression"
+			}
+		}
+	}
+}
