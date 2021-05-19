@@ -1,0 +1,245 @@
+{
+	"name": "SourceDataset_3xh",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ticalab_fileshare",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureFileStorageLocation",
+				"fileName": "DO2007.csv",
+				"folderPath": "datasus"
+			},
+			"columnDelimiter": ",",
+			"rowDelimiter": "\n",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "CONTADOR",
+				"type": "String"
+			},
+			{
+				"name": "TIPOBITO",
+				"type": "String"
+			},
+			{
+				"name": "DTOBITO",
+				"type": "String"
+			},
+			{
+				"name": "HORAOBITO",
+				"type": "String"
+			},
+			{
+				"name": "NATURAL",
+				"type": "String"
+			},
+			{
+				"name": "DTNASC",
+				"type": "String"
+			},
+			{
+				"name": "IDADE",
+				"type": "String"
+			},
+			{
+				"name": "SEXO",
+				"type": "String"
+			},
+			{
+				"name": "RACACOR",
+				"type": "String"
+			},
+			{
+				"name": "ESTCIV",
+				"type": "String"
+			},
+			{
+				"name": "ESC",
+				"type": "String"
+			},
+			{
+				"name": "OCUP",
+				"type": "String"
+			},
+			{
+				"name": "CODMUNRES",
+				"type": "String"
+			},
+			{
+				"name": "CODBAIRES",
+				"type": "String"
+			},
+			{
+				"name": "LOCOCOR",
+				"type": "String"
+			},
+			{
+				"name": "CODESTAB",
+				"type": "String"
+			},
+			{
+				"name": "CODMUNOCOR",
+				"type": "String"
+			},
+			{
+				"name": "CODBAIOCOR",
+				"type": "String"
+			},
+			{
+				"name": "IDADEMAE",
+				"type": "String"
+			},
+			{
+				"name": "ESCMAE",
+				"type": "String"
+			},
+			{
+				"name": "OCUPMAE",
+				"type": "String"
+			},
+			{
+				"name": "QTDFILVIVO",
+				"type": "String"
+			},
+			{
+				"name": "QTDFILMORT",
+				"type": "String"
+			},
+			{
+				"name": "GRAVIDEZ",
+				"type": "String"
+			},
+			{
+				"name": "GESTACAO",
+				"type": "String"
+			},
+			{
+				"name": "PARTO",
+				"type": "String"
+			},
+			{
+				"name": "OBITOPARTO",
+				"type": "String"
+			},
+			{
+				"name": "PESO",
+				"type": "String"
+			},
+			{
+				"name": "OBITOGRAV",
+				"type": "String"
+			},
+			{
+				"name": "OBITOPUERP",
+				"type": "String"
+			},
+			{
+				"name": "ASSISTMED",
+				"type": "String"
+			},
+			{
+				"name": "EXAME",
+				"type": "String"
+			},
+			{
+				"name": "CIRURGIA",
+				"type": "String"
+			},
+			{
+				"name": "NECROPSIA",
+				"type": "String"
+			},
+			{
+				"name": "LINHAA",
+				"type": "String"
+			},
+			{
+				"name": "LINHAB",
+				"type": "String"
+			},
+			{
+				"name": "LINHAC",
+				"type": "String"
+			},
+			{
+				"name": "LINHAD",
+				"type": "String"
+			},
+			{
+				"name": "LINHAII",
+				"type": "String"
+			},
+			{
+				"name": "CAUSABAS",
+				"type": "String"
+			},
+			{
+				"name": "TPASSINA",
+				"type": "String"
+			},
+			{
+				"name": "DTATESTADO",
+				"type": "String"
+			},
+			{
+				"name": "CIRCOBITO",
+				"type": "String"
+			},
+			{
+				"name": "ACIDTRAB",
+				"type": "String"
+			},
+			{
+				"name": "FONTE",
+				"type": "String"
+			},
+			{
+				"name": "TPPOS",
+				"type": "String"
+			},
+			{
+				"name": "DTINVESTIG",
+				"type": "String"
+			},
+			{
+				"name": "CAUSABAS_O",
+				"type": "String"
+			},
+			{
+				"name": "DTCADASTRO",
+				"type": "String"
+			},
+			{
+				"name": "ATESTANTE",
+				"type": "String"
+			},
+			{
+				"name": "FONTEINV",
+				"type": "String"
+			},
+			{
+				"name": "DTRECEBIM",
+				"type": "String"
+			},
+			{
+				"name": "UFINFORM",
+				"type": "String"
+			},
+			{
+				"name": "CB_PRE",
+				"type": "String"
+			},
+			{
+				"name": "NOMEARQ",
+				"type": "String"
+			}
+		]
+	}
+}
