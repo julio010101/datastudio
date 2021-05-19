@@ -1,0 +1,22 @@
+{
+	"name": "DestinationDataset_3xh",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage_FS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "datasus",
+				"fileSystem": "fslaketiclab"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
